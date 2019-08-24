@@ -7,18 +7,18 @@ int main()
   double bars, rate, pay;
   // Intro sentence.
   std::cout << "Welcome to the Earnings Calculator!\n";
-  // Get the number of hours worked.
+  // Get the number of candy bars.
   std::cout << "How many candy bars did you sell? ";
   std::cin >> bars;
 
-  // Get the hourly pay rate.
+  // Get the cost of each candy bar.
   std::cout << "How much does the organization earn for each bar sold? ";
   std::cin >> rate;
 
-  // Calculate the pay.
+  // Calculate the earnings.
   pay = bars * rate;
 
-  // Display the pay.
+  // Display the earnings.
   std::cout << "Congratulations! You have earned $" << pay << " for the organization!" << std::endl;
 
   return 0;
