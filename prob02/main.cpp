@@ -5,9 +5,10 @@
 int main()
 {
   double bars, rate, pay;
+  
   // Intro sentence.
   std::cout << "Welcome to the Earnings Calculator!\n";
-  
+
   // Get the number of candy bars.
   std::cout << "How many candy bars did you sell? ";
   std::cin >> bars;
